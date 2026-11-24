@@ -1,0 +1,21 @@
+{
+    "name": "mastra-langsmith-trajectory-repro",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Minimal reproduction: the LangSmith trajectory of a Mastra agent run misses tool calls and results, and shows thread-title generation as conversation",
+    "type": "module",
+    "scripts": {
+        "start": "node index.mjs"
+    },
+    "dependencies": {
+        "@mastra/core": "1.85.0",
+        "@mastra/langsmith": "1.4.5",
+        "@mastra/memory": "1.41.2",
+        "@mastra/observability": "1.24.2",
+        "langsmith": "0.11.8",
+        "zod": "4.6.7"
+    },
+    "engines": {
+        "node": ">=22.13.0"
+    }
+}
